@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:dice_game/styledtext.dart';
 
-final startAlignment = Alignment.topLeft;
-final endAlignment = Alignment.bottomRight;
+const startAlignment = Alignment.topLeft;
+const endAlignment = Alignment.bottomRight;
 
 class GradientContainer extends StatelessWidget {
   const GradientContainer({super.key});
