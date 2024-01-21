@@ -10,9 +10,9 @@ class GradientContainer extends StatelessWidget {
   @override
   Widget build(context) {
     return Container(
-        decoration: BoxDecoration(
+        decoration: const BoxDecoration(
           gradient: LinearGradient(
-            colors: const [ Color.fromARGB(255, 26, 2, 80),
+            colors:  [ Color.fromARGB(255, 26, 2, 80),
               Color.fromARGB(255, 45, 7, 98),
             ],
             begin: startAlignment,
